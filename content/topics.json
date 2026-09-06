@@ -1,0 +1,64 @@
+[
+  {
+    "id": "saude",
+    "name": "Saúde",
+    "summaryPlain": "Financiamento do SUS, atenção básica, fila de cirurgia e distribuição de medicamento.",
+    "offices": [
+      "presidente",
+      "governador",
+      "prefeito",
+      "deputado-federal"
+    ]
+  },
+  {
+    "id": "seguranca",
+    "name": "Segurança",
+    "summaryPlain": "Polícia, sistema prisional, regras sobre armas e política de drogas.",
+    "offices": [
+      "governador",
+      "presidente",
+      "deputado-federal"
+    ]
+  },
+  {
+    "id": "educacao",
+    "name": "Educação",
+    "summaryPlain": "Financiamento da educação básica, ensino médio, creche e ensino superior.",
+    "offices": [
+      "prefeito",
+      "governador",
+      "presidente",
+      "deputado-federal"
+    ]
+  },
+  {
+    "id": "economia",
+    "name": "Economia",
+    "summaryPlain": "Tributação, gasto público, emprego, previdência e regras de mercado.",
+    "offices": [
+      "presidente",
+      "deputado-federal",
+      "senador"
+    ]
+  },
+  {
+    "id": "meio-ambiente",
+    "name": "Meio ambiente",
+    "summaryPlain": "Licenciamento, desmatamento, saneamento e mudança do clima.",
+    "offices": [
+      "presidente",
+      "governador",
+      "deputado-federal"
+    ]
+  },
+  {
+    "id": "transparencia",
+    "name": "Transparência",
+    "summaryPlain": "Acesso à informação, emenda parlamentar, cota parlamentar e prestação de contas.",
+    "offices": [
+      "deputado-federal",
+      "senador",
+      "presidente"
+    ]
+  }
+]

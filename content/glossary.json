@@ -1,0 +1,72 @@
+[
+  {
+    "term": "PEC (Proposta de Emenda à Constituição)",
+    "slug": "pec",
+    "definitionPlain": "Proposta que muda o texto da Constituição. Precisa de três quintos dos votos na Câmara e no Senado, em dois turnos em cada casa. Não passa por sanção do presidente.",
+    "related": ["Projeto de lei", "Medida provisória"],
+    "sourceRefs": [
+      {
+        "label": "Constituição Federal, artigo 60",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "publisher": "Presidência da República",
+        "retrievedAt": "2026-09-06"
+      }
+    ]
+  },
+  {
+    "term": "Medida provisória",
+    "slug": "medida-provisoria",
+    "definitionPlain": "Norma editada pelo presidente da República em caso urgente e relevante. Vale assim que é publicada, mas perde efeito se o Congresso não aprovar dentro do prazo constitucional.",
+    "related": ["PEC", "Projeto de lei"],
+    "sourceRefs": [
+      {
+        "label": "Constituição Federal, artigo 62",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "publisher": "Presidência da República",
+        "retrievedAt": "2026-09-06"
+      }
+    ]
+  },
+  {
+    "term": "Emenda parlamentar",
+    "slug": "emenda-parlamentar",
+    "definitionPlain": "Alteração que deputado ou senador faz no projeto de orçamento para destinar recurso a uma finalidade específica, em geral no seu estado ou município.",
+    "related": ["Orçamento"],
+    "sourceRefs": [
+      {
+        "label": "Constituição Federal, artigo 166",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "publisher": "Presidência da República",
+        "retrievedAt": "2026-09-06"
+      }
+    ]
+  },
+  {
+    "term": "Quociente eleitoral",
+    "slug": "quociente-eleitoral",
+    "definitionPlain": "Número que define quantas cadeiras cada partido ou federação conquista na eleição proporcional. Calcula-se dividindo os votos válidos pelo número de vagas em disputa. É por isso que um candidato muito votado pode ajudar a eleger outro do mesmo partido.",
+    "related": ["Voto de legenda"],
+    "sourceRefs": [
+      {
+        "label": "Código Eleitoral, artigo 106",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l4737.htm",
+        "publisher": "Presidência da República",
+        "retrievedAt": "2026-09-06"
+      }
+    ]
+  },
+  {
+    "term": "CPI (Comissão Parlamentar de Inquérito)",
+    "slug": "cpi",
+    "definitionPlain": "Comissão do Legislativo criada para investigar um fato determinado, com poderes de investigação próprios de autoridade judicial. Ao final envia suas conclusões ao Ministério Público, que decide se acusa alguém.",
+    "related": ["Fiscalização"],
+    "sourceRefs": [
+      {
+        "label": "Constituição Federal, artigo 58, parágrafo 3",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "publisher": "Presidência da República",
+        "retrievedAt": "2026-09-06"
+      }
+    ]
+  }
+]
