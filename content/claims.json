@@ -1,0 +1,56 @@
+[
+  {
+    "id": "presidente-preco-combustivel",
+    "subject": "Afirmação recorrente em redes sociais",
+    "statement": "O presidente da República define por decreto o preço do combustível na bomba.",
+    "verdict": "falso",
+    "evidence": [
+      "A Constituição lista as competências privativas do presidente no artigo 84 e nenhuma delas inclui fixar preço de combustível.",
+      "A Lei 9.478/1997 estabeleceu a liberdade de preços na produção e na revenda de derivados de petróleo e combustíveis.",
+      "O preço final também depende de tributo estadual, que é o ICMS, definido pelos estados, e da margem de distribuidora e de posto."
+    ],
+    "checkedAt": "2026-09-06",
+    "corrections": [],
+    "sourceRefs": [
+      {
+        "label": "Constituição Federal, artigo 84",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "publisher": "Presidência da República",
+        "retrievedAt": "2026-09-06"
+      },
+      {
+        "label": "Lei 9.478/1997, artigo 69",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9478.htm",
+        "publisher": "Presidência da República",
+        "retrievedAt": "2026-09-06"
+      }
+    ]
+  },
+  {
+    "id": "vereador-asfalto",
+    "subject": "Afirmação recorrente em campanha municipal",
+    "statement": "Vereador asfalta rua e constrói posto de saúde no bairro.",
+    "verdict": "falso",
+    "evidence": [
+      "O vereador integra o Poder Legislativo municipal, cuja função é legislar e fiscalizar, conforme os artigos 29 e 31 da Constituição.",
+      "A execução de obra e a administração de serviço público municipal cabem ao Poder Executivo, ou seja, ao prefeito.",
+      "O vereador pode apresentar emenda ao orçamento indicando destino de recurso, mas quem executa a obra continua sendo a prefeitura."
+    ],
+    "checkedAt": "2026-09-06",
+    "corrections": [],
+    "sourceRefs": [
+      {
+        "label": "Constituição Federal, artigos 29 e 31",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "publisher": "Presidência da República",
+        "retrievedAt": "2026-09-06"
+      },
+      {
+        "label": "Constituição Federal, artigo 30, sobre competências do município",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "publisher": "Presidência da República",
+        "retrievedAt": "2026-09-06"
+      }
+    ]
+  }
+]

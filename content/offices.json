@@ -1,0 +1,186 @@
+[
+  {
+    "id": "presidente",
+    "level": "federal",
+    "name": "o presidente da República",
+    "summaryPlain": "Chefia o governo federal, comanda os ministérios e sanciona ou veta as leis aprovadas pelo Congresso. Não legisla sozinho e não manda no Judiciário.",
+    "canDo": [
+      "Nomear e exonerar ministros de Estado",
+      "Sancionar, vetar e promulgar leis aprovadas pelo Congresso",
+      "Editar medida provisória em caso urgente e relevante, que depois precisa do Congresso",
+      "Enviar ao Congresso o projeto de orçamento e propostas de lei",
+      "Manter relações com outros países e celebrar tratados, sujeitos ao Congresso",
+      "Decretar estado de defesa e estado de sítio, nos limites da Constituição"
+    ],
+    "cannotDo": [
+      "Aprovar lei sozinho, porque toda lei passa pelo Congresso",
+      "Alterar a Constituição por decreto",
+      "Fixar o preço de combustível ou de alimento por vontade própria",
+      "Demitir ministro do Supremo Tribunal Federal",
+      "Gastar fora do que o orçamento aprovado pelo Congresso autoriza"
+    ],
+    "commonMyths": [
+      "Cobrar do presidente a fila do posto de saúde do bairro, que é gestão municipal",
+      "Cobrar do presidente a segurança da rua, que é polícia militar sob comando estadual",
+      "Cobrar do presidente o preço na bomba, que depende de tributo estadual, margem e mercado"
+    ],
+    "sourceRefs": [
+      {
+        "label": "Constituição Federal, artigo 84",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "publisher": "Presidência da República",
+        "retrievedAt": "2026-09-06"
+      }
+    ]
+  },
+  {
+    "id": "deputado-federal",
+    "level": "federal",
+    "name": "um deputado federal",
+    "summaryPlain": "Faz leis nacionais, vota o orçamento da União e fiscaliza o governo federal. Não executa obra e não administra serviço público.",
+    "canDo": [
+      "Apresentar e votar projetos de lei de alcance nacional",
+      "Votar o orçamento da União e apresentar emendas parlamentares",
+      "Fiscalizar o Poder Executivo e convocar ministro para explicações",
+      "Participar de CPI para investigar fato determinado",
+      "Votar proposta de emenda à Constituição"
+    ],
+    "cannotDo": [
+      "Construir escola, posto de saúde ou asfaltar rua, porque isso é execução do Executivo",
+      "Contratar servidor municipal ou estadual",
+      "Mandar na polícia",
+      "Decidir sozinho o destino de emenda sem o trâmite orçamentário"
+    ],
+    "commonMyths": [
+      "Cobrar de deputado federal buraco na rua, que é prefeitura",
+      "Cobrar de deputado federal vaga em creche, que é rede municipal"
+    ],
+    "sourceRefs": [
+      {
+        "label": "Constituição Federal, artigos 44 a 58",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "publisher": "Presidência da República",
+        "retrievedAt": "2026-09-06"
+      }
+    ]
+  },
+  {
+    "id": "senador",
+    "level": "federal",
+    "name": "um senador",
+    "summaryPlain": "Representa o estado no Congresso, revisa leis e aprova nomes indicados para tribunais superiores, Banco Central e embaixadas.",
+    "canDo": [
+      "Apresentar e votar projetos de lei federais",
+      "Aprovar ou rejeitar indicações para o Supremo, tribunais superiores e Banco Central",
+      "Julgar o presidente da República em crime de responsabilidade",
+      "Autorizar operações de crédito externo da União, estados e municípios",
+      "Participar de CPI"
+    ],
+    "cannotDo": [
+      "Executar obra ou serviço público",
+      "Nomear ministro do Supremo, apenas aprovar ou rejeitar o nome indicado",
+      "Administrar orçamento estadual"
+    ],
+    "commonMyths": [
+      "Cobrar de senador a gestão do hospital estadual, que é do governador"
+    ],
+    "sourceRefs": [
+      {
+        "label": "Constituição Federal, artigos 46 e 52",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "publisher": "Presidência da República",
+        "retrievedAt": "2026-09-06"
+      }
+    ]
+  },
+  {
+    "id": "governador",
+    "level": "estadual",
+    "name": "o governador",
+    "summaryPlain": "Chefia o governo do estado. Responde pela polícia militar e civil, pela rede estadual de ensino médio e pelos hospitais estaduais.",
+    "canDo": [
+      "Comandar a polícia militar e a polícia civil do estado",
+      "Administrar hospitais e escolas da rede estadual",
+      "Sancionar e vetar leis aprovadas pela Assembleia Legislativa",
+      "Executar o orçamento estadual e conceder obras e rodovias estaduais",
+      "Definir a alíquota do ICMS dentro dos limites legais"
+    ],
+    "cannotDo": [
+      "Legislar sobre matéria de competência exclusiva da União",
+      "Comandar a Polícia Federal",
+      "Administrar a rede municipal de saúde básica e de creches"
+    ],
+    "commonMyths": [
+      "Cobrar do governador a coleta de lixo, que é serviço municipal",
+      "Cobrar do governador o valor do INSS, que é federal"
+    ],
+    "sourceRefs": [
+      {
+        "label": "Constituição Federal, artigos 25 e 144",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "publisher": "Presidência da República",
+        "retrievedAt": "2026-09-06"
+      }
+    ]
+  },
+  {
+    "id": "prefeito",
+    "level": "municipal",
+    "name": "o prefeito",
+    "summaryPlain": "Cuida do dia a dia da cidade: atenção básica de saúde, creche e ensino fundamental, lixo, iluminação, trânsito local e zoneamento.",
+    "canDo": [
+      "Administrar postos de saúde, creches e escolas de ensino fundamental",
+      "Cuidar de pavimentação, iluminação, limpeza urbana e trânsito local",
+      "Executar o orçamento municipal e conceder serviços públicos locais",
+      "Definir o IPTU e o ISS dentro dos limites da lei",
+      "Aprovar o plano diretor e as regras de uso do solo junto à Câmara"
+    ],
+    "cannotDo": [
+      "Comandar a polícia militar",
+      "Alterar o valor do salário mínimo ou de benefícios federais",
+      "Administrar hospital estadual ou universidade federal"
+    ],
+    "commonMyths": [
+      "Cobrar do prefeito a segurança pública armada, que depende do estado",
+      "Cobrar do prefeito o preço do combustível"
+    ],
+    "sourceRefs": [
+      {
+        "label": "Constituição Federal, artigos 30 e 156",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "publisher": "Presidência da República",
+        "retrievedAt": "2026-09-06"
+      }
+    ]
+  },
+  {
+    "id": "vereador",
+    "level": "municipal",
+    "name": "um vereador",
+    "summaryPlain": "Faz as leis da cidade, vota o orçamento municipal e fiscaliza o prefeito. Não executa obra nem administra serviço.",
+    "canDo": [
+      "Apresentar e votar leis municipais",
+      "Votar o orçamento da cidade e apresentar emendas",
+      "Fiscalizar as contas e os atos do prefeito",
+      "Aprovar o plano diretor",
+      "Instalar CPI municipal"
+    ],
+    "cannotDo": [
+      "Asfaltar rua, tapar buraco ou construir posto de saúde",
+      "Contratar servidor da prefeitura",
+      "Legislar sobre matéria estadual ou federal"
+    ],
+    "commonMyths": [
+      "Cobrar de vereador a execução de obra, que é da prefeitura",
+      "Cobrar de vereador mudança em lei federal"
+    ],
+    "sourceRefs": [
+      {
+        "label": "Constituição Federal, artigos 29 e 31",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "publisher": "Presidência da República",
+        "retrievedAt": "2026-09-06"
+      }
+    ]
+  }
+]

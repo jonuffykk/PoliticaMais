@@ -1,0 +1,25 @@
+[
+  {
+    "year": "2026",
+    "summaryPlain": "Eleição geral. Estão em disputa Presidência da República, governos estaduais, um terço do Senado, Câmara dos Deputados e assembleias legislativas. Cargos municipais não entram nesta eleição.",
+    "offices": ["presidente", "governador", "senador", "deputado-federal"],
+    "dates": [
+      { "label": "Primeiro turno", "date": "2026-10-04" },
+      { "label": "Segundo turno, onde houver", "date": "2026-10-25" }
+    ],
+    "sourceRefs": [
+      {
+        "label": "Constituição Federal, artigo 77",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "publisher": "Presidência da República",
+        "retrievedAt": "2026-09-06"
+      },
+      {
+        "label": "Calendário eleitoral do TSE",
+        "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026",
+        "publisher": "Tribunal Superior Eleitoral",
+        "retrievedAt": "2026-09-06"
+      }
+    ]
+  }
+]
