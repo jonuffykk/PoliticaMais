@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="brand/mark.svg" alt="" width="88" height="88">
-
 # Politica+
 
 **Política brasileira com fonte.** Votação da Câmara, ficha de parlamentar e indicador do Banco Central lidos ao vivo, direto do órgão público, no instante em que você abre a tela.
