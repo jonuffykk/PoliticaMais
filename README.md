@@ -4,13 +4,13 @@
 
 **Política brasileira com fonte.** Votação da Câmara, ficha de parlamentar e indicador do Banco Central lidos ao vivo, direto do órgão público, no instante em que você abre a tela.
 
-[![release](https://img.shields.io/github/v/release/jonuffykk/politicamais?label=vers%C3%A3o&color=0b1b33)](https://github.com/jonuffykk/politicamais/releases/latest)
-[![downloads](https://img.shields.io/github/downloads/jonuffykk/politicamais/total?label=downloads&color=f2b33d)](https://github.com/jonuffykk/politicamais/releases)
-[![build](https://img.shields.io/github/actions/workflow/status/jonuffykk/politicamais/release.yml?branch=main&label=build)](https://github.com/jonuffykk/politicamais/actions/workflows/release.yml)
+[![release](https://img.shields.io/github/v/release/jonuffykk/PoliticaMais?label=vers%C3%A3o&color=0b1b33)](https://github.com/jonuffykk/PoliticaMais/releases/latest)
+[![downloads](https://img.shields.io/github/downloads/jonuffykk/PoliticaMais/total?label=downloads&color=f2b33d)](https://github.com/jonuffykk/PoliticaMais/releases)
+[![build](https://img.shields.io/github/actions/workflow/status/jonuffykk/PoliticaMais/release.yml?branch=main&label=build)](https://github.com/jonuffykk/PoliticaMais/actions/workflows/release.yml)
 [![licença](https://img.shields.io/badge/c%C3%B3digo-AGPL--3.0-blue)](LICENSE)
 [![conteúdo](https://img.shields.io/badge/conte%C3%BAdo-CC%20BY--SA%204.0-lightgrey)](LICENSE-CONTENT)
 
-[Site](https://politicamais.com) · [Baixar o app](https://github.com/jonuffykk/politicamais/releases/latest) · [Metodologia](https://politicamais.com/docs/methodology/) · [API](https://politicamais.com/docs/data/)
+[Site](https://politicamais.com) · [Baixar o app](https://github.com/jonuffykk/PoliticaMais/releases/latest) · [Metodologia](https://politicamais.com/docs/methodology/) · [API](https://politicamais.com/docs/data/)
 
 </div>
 
