@@ -14,8 +14,6 @@
 
 </div>
 
----
-
 ## O problema
 
 Muita gente decide voto por recorte de rede social. A informação que resolveria isso já é pública, mas está espalhada em portais oficiais que ninguém consegue usar.
