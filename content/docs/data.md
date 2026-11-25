@@ -29,16 +29,16 @@ Deputado federal e senador têm ficha individual porque existe base pública con
 JSON estático, gratuito, sem chave, sem cadastro e sem limite de requisição. São arquivos em CDN.
 
 ```
-GET https://politicamais.com/api/v1/index.json
-GET https://politicamais.com/api/v1/offices.json
-GET https://politicamais.com/api/v1/claims.json
-GET https://politicamais.com/api/v1/topics.json
-GET https://politicamais.com/api/v1/glossary.json
-GET https://politicamais.com/api/v1/elections.json
-GET https://politicamais.com/api/v1/politicians.json
-GET https://politicamais.com/api/v1/politicians.csv
-GET https://politicamais.com/api/v1/search.json
-GET https://politicamais.com/api/v1/openapi.json
+GET https://politicamais.vercel.app/api/v1/index.json
+GET https://politicamais.vercel.app/api/v1/offices.json
+GET https://politicamais.vercel.app/api/v1/claims.json
+GET https://politicamais.vercel.app/api/v1/topics.json
+GET https://politicamais.vercel.app/api/v1/glossary.json
+GET https://politicamais.vercel.app/api/v1/elections.json
+GET https://politicamais.vercel.app/api/v1/politicians.json
+GET https://politicamais.vercel.app/api/v1/politicians.csv
+GET https://politicamais.vercel.app/api/v1/search.json
+GET https://politicamais.vercel.app/api/v1/openapi.json
 ```
 
 Comece pelo `index.json`. Ele traz a versão, a data do build, a contagem de cada coleção e os endereços das fontes ao vivo.
@@ -48,8 +48,8 @@ O `politicians.json` é um retrato dos parlamentares usado para gerar as rotas d
 ## Exemplo
 
 ```bash
-curl https://politicamais.com/api/v1/index.json
-curl https://politicamais.com/api/v1/claims.json | jq '.[] | {statement, verdict}'
+curl https://politicamais.vercel.app/api/v1/index.json
+curl https://politicamais.vercel.app/api/v1/claims.json | jq '.[] | {statement, verdict}'
 ```
 
 ## Cache no aparelho

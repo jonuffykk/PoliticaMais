@@ -10,7 +10,7 @@
 [![licença](https://img.shields.io/badge/c%C3%B3digo-AGPL--3.0-blue)](LICENSE)
 [![conteúdo](https://img.shields.io/badge/conte%C3%BAdo-CC%20BY--SA%204.0-lightgrey)](LICENSE-CONTENT)
 
-[Site](https://politicamais.com) · [Baixar o app](https://github.com/jonuffykk/PoliticaMais/releases/latest) · [Metodologia](https://politicamais.com/docs/methodology/) · [API](https://politicamais.com/docs/data/)
+[Site](https://politicamais.vercel.app) · [Baixar o app](https://github.com/jonuffykk/PoliticaMais/releases/latest) · [Metodologia](https://politicamais.vercel.app/docs/methodology/) · [API](https://politicamais.vercel.app/docs/data/)
 
 </div>
 

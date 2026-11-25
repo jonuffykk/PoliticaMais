@@ -1,4 +1,4 @@
-export const siteUrl = 'https://politicamais.com'
+export const siteUrl = 'https://politicamais.vercel.app'
 export const siteName = 'Politica+'
 export const siteShortDescription = 'Política brasileira com fonte'
 export const siteDescription =

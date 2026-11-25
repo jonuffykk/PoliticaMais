@@ -2,7 +2,7 @@
 
 Plataforma aberta de informação política brasileira. Site, app Android e API pública a partir de uma única base de código e de um único build. Sem login, sem banco, sem servidor, sem variável de ambiente, sem custo de operação.
 
-`politicamais.com` com fallback `politicamais.vercel.app` · pacote `politicamais` · AGPL-3.0 no código, CC BY-SA 4.0 no conteúdo · entrega em fase única
+`politicamais.vercel.app` · pacote `politicamais` · AGPL-3.0 no código, CC BY-SA 4.0 no conteúdo · entrega em fase única
 
 ---
 
@@ -172,7 +172,7 @@ Os dois blocos que definem o produto são `OfficePowersCard`, no topo de toda fi
 
 **Performance.** LCP abaixo de 1,5 s em 4G, CLS abaixo de 0,05, INP abaixo de 200 ms, Lighthouse 100 nas quatro categorias. O JavaScript inicial medido no build é de 184 KB comprimido, que é o piso do App Router do Next 16 com React 19. O código do projeto responde por pouco disso, e o alvo de 80 KB da versão anterior deste plano não é alcançável nesta stack. Tudo é Server Component por padrão e `'use client'` aparece só em busca, comparador e tema. `generateStaticParams` cobre todas as rotas dinâmicas. O índice de busca carrega no primeiro foco do campo, nunca no load, e vai para Web Worker acima de 1 MB. Fonte local com `font-display: swap`, imagens com dimensão fixa, gráficos em SVG próprio de cerca de 3 KB sem biblioteca, e zero script, fonte ou tag de terceiro. O orçamento de bundle quebra o build no CI.
 
-**SEO.** Metadata API por rota com título e descrição derivados do conteúdo. JSON-LD de `Person`, `ClaimReview`, `FAQPage`, `BreadcrumbList`, `Organization`, `Dataset` em `/docs/data` e `SoftwareApplication` em `/download`. `ClaimReview` bem implementado é o maior ganho orgânico disponível neste nicho e exige uma página por afirmação, nunca uma agregando várias. URLs canônicas em português sem parâmetro, no formato `/politicians/nome-sobrenome-uf`. `sitemap.ts` e `robots.ts` gerados do conteúdo, canonical apontando sempre para `politicamais.com` mesmo quando servido pelo domínio da Vercel, feed RSS de verificações e correções, `hreflang` apenas `pt-BR`. A página de metodologia, assinada e datada, é o principal ativo de autoridade E-E-A-T em tema sensível.
+**SEO.** Metadata API por rota com título e descrição derivados do conteúdo. JSON-LD de `Person`, `ClaimReview`, `FAQPage`, `BreadcrumbList`, `Organization`, `Dataset` em `/docs/data` e `SoftwareApplication` em `/download`. `ClaimReview` bem implementado é o maior ganho orgânico disponível neste nicho e exige uma página por afirmação, nunca uma agregando várias. URLs canônicas em português sem parâmetro, no formato `/politicians/nome-sobrenome-uf`. `sitemap.ts` e `robots.ts` gerados do conteúdo, canonical apontando sempre para `politicamais.vercel.app`, feed RSS de verificações e correções, `hreflang` apenas `pt-BR`. A página de metodologia, assinada e datada, é o principal ativo de autoridade E-E-A-T em tema sensível.
 
 **Acessibilidade.** WCAG 2.2 AA como condição de merge. Contraste mínimo 4,5:1 nos dois temas, verificado sobre os tokens e não sobre captura de tela. Navegação completa por teclado com foco visível e skip link, um `h1` por página, landmarks corretos, alvo de toque de 44 px, `prefers-reduced-motion` respeitado, controle de tamanho de fonte e modo de alto contraste no app. `axe-core` roda em todas as rotas dentro do Playwright. Linguagem simples é diretriz editorial: um app cívico que só o leitor com curso superior entende falhou no propósito.
 
@@ -246,7 +246,7 @@ A versão 1 cobre apenas o nível federal, porque o municipal multiplica o volum
 
 ## 16. Critérios de aceite
 
-Lighthouse 100 nas quatro categorias nas rotas principais. JavaScript inicial no piso da stack, medido a cada build. Zero requisição a terceiro em runtime, verificado em auditoria de rede. Zero `any` e zero aviso de lint. Todo registro exibido com `sourceRefs` datado. Build reproduzível em fork sem nenhum segredo. API v1 respondendo com CORS e OpenAPI válido. Release automático produzindo tag, changelog, APK assinado e checksum. Domínio `politicamais.com` com canonical correto e `politicamais.vercel.app` funcionando como fallback. Todas as páginas jurídicas e de governança publicadas. APK instalável funcionando sem rede. Auditoria de acessibilidade sem violação de nível A ou AA.
+Lighthouse 100 nas quatro categorias nas rotas principais. JavaScript inicial no piso da stack, medido a cada build. Zero requisição a terceiro em runtime, verificado em auditoria de rede. Zero `any` e zero aviso de lint. Todo registro exibido com `sourceRefs` datado. Build reproduzível em fork sem nenhum segredo. API v1 respondendo com CORS e OpenAPI válido. Release automático produzindo tag, changelog, APK assinado e checksum. `politicamais.vercel.app` com canonical correto. Todas as páginas jurídicas e de governança publicadas. APK instalável funcionando sem rede. Auditoria de acessibilidade sem violação de nível A ou AA.
 
 ---
 

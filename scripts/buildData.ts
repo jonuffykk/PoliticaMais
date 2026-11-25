@@ -106,7 +106,7 @@ write('index.json', {
   version,
   builtAt: new Date().toISOString(),
   license: 'CC-BY-SA-4.0',
-  documentation: 'https://politicamais.com/docs/data/',
+  documentation: 'https://politicamais.vercel.app/docs/data/',
   editorial: Object.fromEntries(
     collections.map((name) => [name, { count: data[name].length, url: `/api/v1/${name}.json` }]),
   ),
@@ -123,7 +123,7 @@ write('openapi.json', {
       'Esta API serve o conteúdo curado. Votações, fichas de parlamentares e séries econômicas são lidas ao vivo, no cliente, direto da Câmara dos Deputados e do Banco Central, e não passam por este servidor.',
     license: { name: 'CC BY-SA 4.0', url: 'https://creativecommons.org/licenses/by-sa/4.0/' },
   },
-  servers: [{ url: 'https://politicamais.com/api/v1' }],
+  servers: [{ url: 'https://politicamais.vercel.app/api/v1' }],
   paths: Object.fromEntries([
     ...collections.map((name) => [
       `/${name}.json`,
